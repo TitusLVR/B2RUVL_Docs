@@ -20,12 +20,12 @@ This tools is designed to streamline the workflow for 3D artists who prefer the 
 
 ## Getting Started
 
-Check out the [Installation](Installation) guide to get set up.
+Check out the [Installation](installation.md) guide to get set up.
 
 ## Usage
 
-Learn more about the available tools in the [Features](Features) section.
+Learn more about the available tools in the [Features](features.md) section.
 
 ## Configuration
 
-Detailed information about configuration options can be found in the [Preferences](Preferences) page.
+Detailed information about configuration options can be found in the [Preferences](preferences.md) page.
