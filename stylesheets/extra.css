@@ -1,0 +1,41 @@
+/* Modern Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-accent-fg-color);
+  border-radius: 5px;
+  border: 2px solid var(--md-default-bg-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-accent-fg-color--light);
+}
+
+/* Smooth Card Hover Effects */
+.md-typeset .grid.cards > ul > li {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Typography refinements */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Hints (Subtle) */
+.md-header {
+  backdrop-filter: blur(8px);
+  background-color: rgba(30, 30, 30, 0.85); /* Adjust based on slate theme override if needed */
+}
